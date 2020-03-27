@@ -20,9 +20,9 @@ jobs:
       - image: circleci/openjdk:8-jdk-stretch
     steps:
       - run:
-        name: Las Pruebas
-        command: |
-          echo 'Haciendo Pruebas'
+          name: Las Pruebas
+          command: |
+            echo 'Haciendo Pruebas'
       - checkout
       - run: mvn test -e -X
   Run-Package:
