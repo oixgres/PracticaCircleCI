@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.programa.MicroorganismoTest" time="0.17" tests="20" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.programa.MicroorganismoTest" time="0.365" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="12"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Sergio\IdeaProjects\PracticaPOOACirceCI\target\test-classes;C:\Users\Sergio\IdeaProjects\PracticaPOOACirceCI\target\classes;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Sergio\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Sergio\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Sergio\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\Sergio\IdeaProjects\PracticaPOOACircleCI\target\test-classes;C:\Users\Sergio\IdeaProjects\PracticaPOOACircleCI\target\classes;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Sergio\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Sergio\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Sergio\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Sergio\AppData\Local\Temp\surefire15137417264930881763\surefirebooter5472678776196093771.jar C:\Users\Sergio\AppData\Local\Temp\surefire15137417264930881763 2020-03-26T22-18-27_697-jvmRun1 surefire5307334235354421959tmp surefire_06015469607649293133tmp"/>
+    <property name="sun.java.command" value="C:\Users\Sergio\AppData\Local\Temp\surefire17773110715033935490\surefirebooter14932544546898385707.jar C:\Users\Sergio\AppData\Local\Temp\surefire17773110715033935490 2020-03-26T22-59-11_599-jvmRun1 surefire1620466567686104454tmp surefire_07953839821522261881tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Sergio\IdeaProjects\PracticaPOOACirceCI\target\test-classes;C:\Users\Sergio\IdeaProjects\PracticaPOOACirceCI\target\classes;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Sergio\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Sergio\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Sergio\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sergio\IdeaProjects\PracticaPOOACircleCI\target\test-classes;C:\Users\Sergio\IdeaProjects\PracticaPOOACircleCI\target\classes;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Sergio\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Sergio\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Sergio\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\Sergio\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Sergio"/>
     <property name="user.language" value="en"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2019-07-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Sergio\IdeaProjects\PracticaPOOACirceCI"/>
+    <property name="basedir" value="C:\Users\Sergio\IdeaProjects\PracticaPOOACircleCI"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Sergio\AppData\Local\Temp\surefire15137417264930881763\surefirebooter5472678776196093771.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sergio\AppData\Local\Temp\surefire17773110715033935490\surefirebooter14932544546898385707.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Sergio\AppData\Local\Temp\"/>
     <property name="java.version" value="12.0.2"/>
-    <property name="user.dir" value="C:\Users\Sergio\IdeaProjects\PracticaPOOACirceCI"/>
+    <property name="user.dir" value="C:\Users\Sergio\IdeaProjects\PracticaPOOACircleCI"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -59,24 +59,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="estatus" classname="org.programa.MicroorganismoTest" time="0.02"/>
-  <testcase name="TestOrgano" classname="org.programa.MicroorganismoTest" time="0.004"/>
-  <testcase name="isDamage" classname="org.programa.MicroorganismoTest" time="0"/>
-  <testcase name="getVida" classname="org.programa.MicroorganismoTest" time="0"/>
+  <testcase name="estatus" classname="org.programa.MicroorganismoTest" time="0.023"/>
+  <testcase name="TestOrgano" classname="org.programa.MicroorganismoTest" time="0.02"/>
+  <testcase name="isDamage" classname="org.programa.MicroorganismoTest" time="0.005"/>
+  <testcase name="getVida" classname="org.programa.MicroorganismoTest" time="0.002"/>
+  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0.006"/>
+  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0.006"/>
+  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0"/>
+  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0.002"/>
   <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0"/>
   <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0"/>
+  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0.037"/>
   <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0"/>
-  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0"/>
-  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0"/>
-  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0"/>
-  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0"/>
-  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0"/>
-  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0"/>
-  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0.001"/>
-  <testcase name="TestLugares(String)[1]" classname="org.programa.MicroorganismoTest" time="0.025"/>
+  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0.005"/>
+  <testcase name="TestBajarVida" classname="org.programa.MicroorganismoTest" time="0.003"/>
+  <testcase name="TestLugares(String)[1]" classname="org.programa.MicroorganismoTest" time="0.061"/>
   <testcase name="TestLugares(String)[2]" classname="org.programa.MicroorganismoTest" time="0"/>
-  <testcase name="TestLugares(String)[3]" classname="org.programa.MicroorganismoTest" time="0"/>
-  <testcase name="TestLugares(String)[4]" classname="org.programa.MicroorganismoTest" time="0.006"/>
-  <testcase name="TestLugares(String)[5]" classname="org.programa.MicroorganismoTest" time="0.003"/>
+  <testcase name="TestLugares(String)[3]" classname="org.programa.MicroorganismoTest" time="0.002"/>
+  <testcase name="TestLugares(String)[4]" classname="org.programa.MicroorganismoTest" time="0"/>
+  <testcase name="TestLugares(String)[5]" classname="org.programa.MicroorganismoTest" time="0.005"/>
   <testcase name="setVida" classname="org.programa.MicroorganismoTest" time="0"/>
 </testsuite>
